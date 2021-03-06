@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     
   steps:
-  - name: 环境变量测试
+  - name: "环境变量测试"
     env:
       rclone_key: ${{ secrets.rclone_key }}
       FIRST_NAME: Mona
